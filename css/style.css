@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.753)), url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    width: 100%;
+
+}
+.lobster{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    
+}
+
+.contain{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+.imgt{
+    display: block;
+    margin: auto;
+    padding: 50px;
+    height: auto;
+
+}
+.titre{
+    display: block;
+    margin: 0 25vw;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+.para{
+    display: block;
+    text-align: center;
+    
+    margin: 2% 20%;
+    color: aliceblue;
+}
+.down{
+    margin-top: 5%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 5em;
+}
+.sec1{
+    width: 100%;
+    background: rgb(245, 245, 245);
+ 
+}
+.desc{
+    width: 80%;
+    
+    padding: 88px;
+    background-color: rgba(255, 255, 255, 0.335);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.titre1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+.desc h3{
+    
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 3em;
+font-weight: 550;
+font-family: 'Playfair Display', serif;
+
+
+}
+.desc h3 b{
+    font-style: italic;
+}
