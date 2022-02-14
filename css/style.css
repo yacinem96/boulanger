@@ -65,7 +65,7 @@ body {
 
 .sec1 {
     width: 100%;
-    padding: 0 10%;
+    padding: 5% 10%;
     background: rgb(255, 255, 255);
 
 }
@@ -73,11 +73,13 @@ body {
 .desc {
     
     text-align: center;
-    padding: 88px;
+    /* padding: 88px; */
     background-color: rgba(255, 255, 255, 0.335);
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titre1 {
