@@ -63,7 +63,7 @@ body {
     font-size: 5em;
 }
 
-.sec1 {
+.sec1 ,.sec3 {
     width: 100%;
     padding: 5% 10%;
     background: rgb(255, 255, 255);
@@ -80,6 +80,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .titre1 {
@@ -170,13 +171,29 @@ body {
 
 }
 .art2 a ,.art4 a,.art6 a{
-    
+    display: inline-block;
     color: rgb(0, 0, 0);
     letter-spacing: 0.1em;
     font-size: 1.0em;
     text-align: center;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.164);
+    transition: 0.5s;
 }
 
+.art2 a:hover ,.art4 a:hover,.art6 a:hover{
+
+    border-bottom: 2px solid black;
+    transform: scale(1.2);
+}
+
+.titre3{
+    display: block;
+    margin: 1% 15vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
