@@ -28,10 +28,35 @@ body {
 
 }
 
+.contain nav a{
+    display: block;
+    color: aliceblue;
+    text-decoration:none;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    margin: 0 1%;
+    border-bottom: 2px solid rgba(245, 245, 220, 0.13);
+    transition: 0.5;
+    position: relative;
+
+}
+
+.contain nav a:hover{
+    border-bottom: 2px solid rgba(245, 245, 220, 0.726);
+    /* content: "";
+    height: 15px;
+    width: 30px;
+    position: absolute; */
+}
+.contain nav a:active{
+    border-bottom: 2px solid rgba(245, 245, 220, 0.726);
+
+}
+
 .imgt {
     display: block;
-    margin: auto;
-    padding: 50px;
+    margin: 6vh auto;
+    /* padding: 50px; */
     height: auto;
 
 }
@@ -119,6 +144,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     min-height: 100%;
     max-width: 100%;
     
@@ -127,32 +153,37 @@ body {
 
 .roww article {
     width: 33.33%;
-    height: 334px;
-    padding: 50px;
+    height: 100%;
+    /* height: 334px; */
+    padding: 1% 2.1%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: black;
-    /* display: flex;
-    flex-direction: column; */
     min-height: 400px;
+    min-width: 253.7px;
     overflow: hidden;
     
 }
 
 .art1 ,.art3 ,.art2 ,.art4,.art5,.art6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    
+    width: 100%;
     background-position: 50% 50%;
+    flex: 1;
     
     
 
 }
  .art1 {
     background-image: url(../images/11.jpg);
+    
 }
  .art3 {
     background-image: url(../images/22.jpg);
@@ -185,15 +216,68 @@ body {
 .art2 a:hover ,.art4 a:hover,.art6 a:hover{
 
     border-bottom: 2px solid black;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .titre3{
     display: block;
-    margin: 1% 15vw;
+    margin: 1% 0%;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 3em;
+    font-size: 2.75rem;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+}
+.caro{
+    width: 100%;
+    height:100%;
+    color: aliceblue;
+
+  
+}
+.caro img{
+    width: 100%;
+    height:100vh;
+
+
+}
+ .caro1, .caro2,.caro3{
+    width: 100%;
+    height:100%;
+    max-height:600px ;
+    min-height: 100px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment:fixed ;
+    max-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.caro1{
+background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.397)),url(../images/pain.jpg);
+}
+.caro2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.459)),url(../images/vin.jpg);
+}
+.caro3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.383)),url(../images/3.jpg);
+}
+.caro .desc{
+    background-color: transparent;
+    color: wheat;
+    padding: 0 5%;
+    overflow: hidden;
+    
+}
+.caro .desc h3{
+    color: aliceblue;
+}
+.caro .titre1{
+    color: aliceblue;
 }
