@@ -92,6 +92,10 @@ body {
     width: 100%;
     padding: 5% 10%;
     background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
 
 }
 
@@ -254,7 +258,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 
@@ -279,5 +283,46 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.267), rg
     color: aliceblue;
 }
 .caro .titre1{
+    color: aliceblue;
+}
+
+.tab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 2%; */
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab1 ,.tab2,.tab3{
+
+   width: 25%;
+   display: flex;
+   margin: 7% 2.5%;
+   padding: 0 2%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-width: 200px;
+
+
+}
+.sec3 button{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 250px;
+    border: 2px solid black;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec3 button:hover{
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
